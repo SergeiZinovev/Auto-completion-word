@@ -21,4 +21,4 @@ void hasPrefix(TrieNode* node, int& cnt_ends);
 void findMinPrefixes(TrieNode* root, char buf[], int ind, std::string& res);
 void wordSubstitution(TrieNode* root, std::string& result, std::string currenWord);
 void wordSubstitutionInner(TrieNode* root, char buf[], int indexChar, std::string& result, int& counterWords, bool endWord);
-#pragma once
+
